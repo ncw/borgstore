@@ -24,6 +24,7 @@ requires-python = ">=3.9"
 dependencies = [
     "cryptography < 43.0.0",  # using a more recent version triggers annoying warnings with paramiko
     "paramiko",
+    "requests",
 ]
 
 [project.urls]
